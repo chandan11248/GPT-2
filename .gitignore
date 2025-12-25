@@ -1,4 +1,18 @@
 venv
 datasets
 model_parameters
-.
+# Ignore large files and directories
+Fine_tuning/checkpoint
+Fine_tuning/model.ckpt.data-00000-of-00001
+Fine_tuning/model.ckpt.index
+Fine_tuning/model.ckpt.meta
+Fine_tuning/__pycache__/
+encoder.json
+sms_spam_collection/
+hparams.json
+vocab.bpe
+loss-plot.pdf
+accuracy-plot.pdf
+# Ignore CSV files
+Fine_tuning/*.csv
+
