@@ -15,4 +15,4 @@ loss-plot.pdf
 accuracy-plot.pdf
 # Ignore CSV files
 Fine_tuning/*.csv
-
+review_classifier.pth
