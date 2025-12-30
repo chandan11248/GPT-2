@@ -16,3 +16,23 @@ accuracy-plot.pdf
 # Ignore CSV files
 Fine_tuning/*.csv
 review_classifier.pth
+
+# Large Model Weights and Checkpoints
+**/*.pth
+**/*.pth.tar
+**/*.ckpt*
+**/checkpoint
+**/model_parameters/
+**/gpt-2-*/
+**/gpt_download3.py
+**/__pycache__/
+instruction-data-with-response.json
+
+# Additional large dataset files
+*.txt
+!requirements.txt
+
+# Specific large model directories
+Fine_tuning/GPT-2-124M/
+Fine_tuning/gpt-2-334M/
+Fine_tuning/*-sft.pth

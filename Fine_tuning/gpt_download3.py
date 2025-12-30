@@ -12,7 +12,7 @@ def download_and_load_gpt2(model_size, models_dir):
         raise ValueError(f"Model size not in {allowed_sizes}")
  
     # Define paths
-    model_dir = "/Users/owner/Desktop/GPT-2/Fine_tuning"
+    model_dir = "/Users/owner/Desktop/GPT-2/Fine_tuning/gpt-2-334M"
     base_url = "https://openaipublic.blob.core.windows.net/gpt-2/models"
     filenames = [
         "checkpoint", "encoder.json", "hparams.json",
