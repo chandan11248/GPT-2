@@ -281,9 +281,8 @@ During training on a toy dataset, I monitored the loss to ensure proper learning
 </p>
 
 **Observations:**
-- ✅ Smooth convergence indicates stable training
-- ✅ No overfitting on small dataset
-- ✅ Learning rate scheduling helps final convergence
+- due to lmitation on the hardware we did small training ,give a bad  response 
+
 
 ### Model Configuration
 
@@ -532,8 +531,7 @@ This project is for educational purposes. Model architecture follows the GPT-2 p
 
 - OpenAI for the GPT-2 architecture and paper
 - PyTorch team for the excellent framework
-- Jay Alammar for amazing visualizations
-- The open-source ML community
+- vizura youtube community
 
 ---
 
